@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'univFont';
+    src: url('./../fonts/BebasNeue-Regular.eot?') format('embedded-opentype'),
+       url('./../fonts/BebasNeue-Regular.woff2') format('woff2'),
+       url('./../fonts/BebasNeue-Regular.woff') format('woff'),
+       url('./../fonts/BebasNeue-Regular.ttf')  format('truetype'),
+       url('./../fonts/BebasNeue-Regular.otf') format('otf'); 
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    width: 1050px;
+    margin: 0 auto;
+}
+.nav{
+    margin-top: 20px;
+    text-align: right;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.float-right .navbar-nav{
+    float: right;
+}
+.bg-ash{
+    background-color: rgb(248, 249, 252);
+    margin: 100px 0px;
+    padding-bottom: 150px;
+}
+.cl-navy{
+    color: rgb(54, 57, 88);
+}
+.cl-orng{
+    color: #ff8367;
+}
+.left-el{
+    width: 48%;
+    display: inline-block;    
+    overflow: hidden;
+}
+.pt-space{
+    padding-top: 200px;
+}
+.right-el{
+    width: 35%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.fnt-head{
+    font-size: 75px; 
+    font-family: 'univFont';
+}
+.btn{
+    border:none;
+    border-radius: 8px;
+}
+.btn-orange-grad{
+    background-image: linear-gradient(to bottom, rgb(245, 100, 96) , rgb(252, 118, 98));
+    color: white;
+    font-weight: bold;
+    padding:15px 40px;
+}
+p{
+    color: rgb(62, 62, 62);
+}
+.img-up{
+    margin-top: -145px;
+}
+.mt-10{
+    margin-top: 90px;
+}
+.fnt-head-sm{
+    font-size: 45px;    
+    font-family: 'univFont';
+}
+.fnt-head-md{
+    font-size: 55px;
+    font-weight: bold;    
+    font-family: 'univFont';
+    margin-top: 10px;
+}
+.card{
+    display: inline-block;
+    margin: 20px;
+    width: 27%;
+    overflow: hidden;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 5px #f1f2f5 ;
+}
+.p-60{
+    padding: 60px;
+}
+.head-wrap{
+    line-height: 1;
+}
+.pt-20{
+    padding-top: 90px;
+}
+.space{
+    padding: 20px 0px;
+}
+.btn:hover{
+    color:white;
+}
+.space-big{
+    padding: 80px 0px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.p-10{
+    padding:10px;
+    color: rgb(54, 57, 88);
+}
+.bg-graphics{
+    background: url('./../img/bg-group.png');
+    background-repeat: no-repeat;
+    background-size: contain,cover;
+    color: white;
+}
+.pt-x{
+    padding-top: 25px;
+}
+.stay-connect{
+    font-family: 'univFont';
+    color: gray;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.email{
+    color: rgb(54, 57, 88);
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px;
+}
+.social-icon{
+    width: 40px;
+    margin:10px;
+}
+.footer{
+    margin-bottom: 80px;
+}
+.disp-in{
+    display: inline-block;
+    margin-top: 30px;
+}
+.f-right{
+    float: right;
+}
